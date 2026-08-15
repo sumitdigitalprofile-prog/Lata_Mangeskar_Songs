@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lata Ji Ke Gaane</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="title-banner"></h1>
+
+    <div class="player-bar">
+
+        <!-- Album Cover -->
+        <div class="album-cover">
+            <img
+                src="https://tse4.mm.bing.net/th/id/OIP.xHB3ol2grkUmXpZcV63KawHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Lata Mangeshkar">
+        </div>
+
+
+        <!-- Song Info -->
+        <div class="track-info">
+
+            <div class="track-title" id="track-name">
+                Lag Jaa Gale
+            </div>
+
+            <div class="track-artist">
+                Lata Mangeshkar • Woh Kaun Thi?
+            </div>
+
+
+            <!-- Progress -->
+            <div class="progress-area">
+
+                <input
+                    type="range"
+                    id="progress"
+                    value="0"
+                    min="0"
+                    max="100"
+                >
+
+                <div class="time">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Controls -->
+        <div class="player-controls">
+            </button>
+            <button class="control-btn" id="previous-btn">
+                ⏮
+            </button>
+
+            <button class="play-btn" id="play-btn">
+                ▶
+            </button>
+
+            <button class="control-btn" id="next-btn">
+                ⏭
+            </button>
+
+        </div>
+
+
+        <!-- Expand -->
+        <button class="expand-btn">
+            ⛶
+        </button>
+
+
+        <!-- Audio -->
+        <audio
+            id="audio-player"
+            src="song/Lag Ja Gale Se Phir - Lata Mangeshkar.mp3">
+        </audio>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
