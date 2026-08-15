@@ -20,6 +20,22 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 600px) {
+
+    body {
+        min-height: 100dvh;
+        height: 100dvh;
+
+        padding: 12px;
+
+        background-image: url("img/lata-mobile-bg.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
 /* Center Tribute Heading */
 .title-banner {
   margin: auto 0;
@@ -253,110 +269,173 @@ body {
 
 @media (max-width: 600px) {
 
-    body {
-        padding: 12px;
-        min-height: 100vh;
-    }
+  body {
+    min-height: 100dvh;
+    height: 100dvh;
 
-    .title-banner {
-        font-size: 3rem;
-        text-align: center;
-    }
+    width: 100%;
 
-    .player-bar {
-        width: calc(100% - 24px);
-        bottom: 12px;
+    padding: 12px;
 
-        padding: 10px;
+    /* Keep the dark overlay on mobile */
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.18),
+        rgba(0, 0, 0, 0.42)
+      ),
+      url("img/lata-mobile-bg.png")
+      center / cover
+      no-repeat;
+  }
 
-        gap: 10px;
 
-        border-radius: 18px;
+  /* =========================
+     PLAYER
+     ========================= */
 
-        /* Allow the player to use multiple rows */
-        display: grid;
+  .player-bar {
+    position: fixed;
 
-        grid-template-columns: 58px 1fr auto;
+    left: 10px;
+    right: 10px;
+    bottom: 12px;
 
-        grid-template-rows: auto auto;
+    transform: none;
 
-        align-items: center;
-    }
+    width: auto;
 
-    /* Album cover */
+    padding: 10px;
 
-    .album-cover {
-        width: 58px;
-        height: 58px;
+    border-radius: 18px;
 
-        grid-column: 1;
-        grid-row: 1 / 3;
+    display: grid;
 
-        border-radius: 10px;
-    }
+    /*
+      Cover | Song Info | Controls
+    */
+    grid-template-columns: 55px 1fr auto;
 
-    /* Song information */
+    /*
+      Top row + progress row
+    */
+    grid-template-rows: auto auto;
 
-    .track-info {
-        grid-column: 2;
-        grid-row: 1;
+    gap: 8px 10px;
 
-        min-width: 0;
-    }
+    z-index: 1000;
+  }
 
-    .track-title {
-        font-size: 14px;
-    }
 
-    .track-artist {
-        font-size: 11px;
-    }
+  /* =========================
+     ALBUM COVER
+     ========================= */
 
-    /* Controls */
+  .album-cover {
+    width: 55px;
+    height: 55px;
 
-    .player-controls {
-        grid-column: 3;
-        grid-row: 1;
+    grid-column: 1;
+    grid-row: 1;
 
-        display: flex;
+    border-radius: 10px;
 
-        gap: 3px;
-    }
+    overflow: hidden;
+  }
 
-    .control-btn {
-        width: 28px;
-        height: 28px;
+  .album-cover img {
+    width: 100%;
+    height: 100%;
 
-        font-size: 12px;
-    }
+    object-fit: cover;
 
-    .play-btn {
-        width: 40px;
-        height: 40px;
+    display: block;
+  }
 
-        font-size: 16px;
-    }
 
-    /* Progress */
+  /* =========================
+     SONG INFORMATION
+     ========================= */
 
-    .progress-area {
-        grid-column: 2 / 4;
-        grid-row: 2;
+  .track-info {
+    grid-column: 2;
+    grid-row: 1;
 
-        width: 100%;
-    }
+    min-width: 0;
 
-    #progress {
-        width: 100%;
-    }
+    display: flex;
+    flex-direction: column;
 
-    .time {
-        font-size: 9px;
-    }
+    gap: 2px;
+  }
 
-    /* Hide expand button on small screens */
+  .track-title {
+    font-size: 14px;
+  }
 
-    .expand-btn {
-        display: none;
-    }
+  .track-artist {
+    font-size: 11px;
+  }
+
+
+  /* =========================
+     CONTROLS
+     ========================= */
+
+  .player-controls {
+    grid-column: 3;
+    grid-row: 1;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 4px;
+  }
+
+  .control-btn {
+    width: 28px;
+    height: 28px;
+
+    font-size: 12px;
+  }
+
+  .play-btn {
+    width: 42px;
+    height: 42px;
+
+    font-size: 16px;
+  }
+
+
+  /* =========================
+     PROGRESS BAR
+     ========================= */
+
+  .progress-area {
+    grid-column: 1 / 4;
+    grid-row: 2;
+
+    width: 100%;
+
+    margin-top: 2px;
+  }
+
+  .progress-area input[type="range"] {
+    width: 100%;
+  }
+
+  .time {
+    font-size: 9px;
+  }
+
+
+  /* =========================
+     HIDE EXPAND ON PHONE
+     ========================= */
+
+  .expand-btn {
+    display: none;
+  }
+
 }
