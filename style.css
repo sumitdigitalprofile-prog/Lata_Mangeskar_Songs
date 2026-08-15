@@ -246,3 +246,117 @@ body {
     0 4px 10px rgba(0, 0, 0, 0.3),
     inset 0 1px 2px rgba(255, 255, 255, 0.6);
 }
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 12px;
+        min-height: 100vh;
+    }
+
+    .title-banner {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .player-bar {
+        width: calc(100% - 24px);
+        bottom: 12px;
+
+        padding: 10px;
+
+        gap: 10px;
+
+        border-radius: 18px;
+
+        /* Allow the player to use multiple rows */
+        display: grid;
+
+        grid-template-columns: 58px 1fr auto;
+
+        grid-template-rows: auto auto;
+
+        align-items: center;
+    }
+
+    /* Album cover */
+
+    .album-cover {
+        width: 58px;
+        height: 58px;
+
+        grid-column: 1;
+        grid-row: 1 / 3;
+
+        border-radius: 10px;
+    }
+
+    /* Song information */
+
+    .track-info {
+        grid-column: 2;
+        grid-row: 1;
+
+        min-width: 0;
+    }
+
+    .track-title {
+        font-size: 14px;
+    }
+
+    .track-artist {
+        font-size: 11px;
+    }
+
+    /* Controls */
+
+    .player-controls {
+        grid-column: 3;
+        grid-row: 1;
+
+        display: flex;
+
+        gap: 3px;
+    }
+
+    .control-btn {
+        width: 28px;
+        height: 28px;
+
+        font-size: 12px;
+    }
+
+    .play-btn {
+        width: 40px;
+        height: 40px;
+
+        font-size: 16px;
+    }
+
+    /* Progress */
+
+    .progress-area {
+        grid-column: 2 / 4;
+        grid-row: 2;
+
+        width: 100%;
+    }
+
+    #progress {
+        width: 100%;
+    }
+
+    .time {
+        font-size: 9px;
+    }
+
+    /* Hide expand button on small screens */
+
+    .expand-btn {
+        display: none;
+    }
+}
