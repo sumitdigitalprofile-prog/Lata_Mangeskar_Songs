@@ -23,6 +23,14 @@ const playlist = [
     src: "song/Ho Gaya Hai Tujhko To Pyar Sajna Dilwale Dulhania Le Jayenge 320 Kbps.mp3",
     cover: "https://tse4.mm.bing.net/th/id/OIP.Vgyd17Evd-gYhIA1UWlqiQHaIk?w=136&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
   },
+
+  {
+    title: "Yeh Kahaan Aa Gaye Hum",
+    artist: "Lata Mangeshkar • Silsila",
+    src: "song/Yeh Kahaan Aa Gaye Hum.mp3",
+    cover: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p177893_p_v8_aa.jpg"
+  },
+
   {
     title: "Aaja Piya Tohe Pyar Doon",
     artist: "Lata Mangeshkar • Baharon Ke Sapne",
