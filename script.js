@@ -105,18 +105,36 @@ function playRandomTrack() {
   loadTrack(currentIndex);
 
   audio.play();
-
-  playBtn.textContent = "⏸";
+    setPauseIcon();
 }
 
 function togglePlay() {
   if (audio.paused) {
     audio.play();
-    playBtn.textContent = "⏸";
+    setPauseIcon();
   } else {
     audio.pause();
-    playBtn.textContent = "▶";
+    setPlayIcon();
   }
+}
+
+// Using SVG icons as Play Pause Icons
+
+function setPlayIcon() {
+  playBtn.innerHTML = `
+    <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M8 5v14l11-7z"></path>
+    </svg>
+  `;
+  playBtn.setAttribute("aria-label", "Play");
+}
+function setPauseIcon() {
+  playBtn.innerHTML = `
+    <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M6 5h4v14H6zM14 5h4v14h-4z"></path>
+    </svg>
+  `;
+  playBtn.setAttribute("aria-label", "Pause");
 }
 
 // Play / Pause Click
@@ -127,14 +145,14 @@ prevBtn.addEventListener("click", () => {
   currentIndex = (currentIndex - 1 + playlist.length) % playlist.length;
   loadTrack(currentIndex);
   audio.play();
-  playBtn.textContent = "⏸";
+    setPauseIcon();
 });
 
 nextBtn.addEventListener("click", () => {
   currentIndex = (currentIndex + 1) % playlist.length;
   loadTrack(currentIndex);
   audio.play();
-  playBtn.textContent = "⏸";
+    setPauseIcon();
 });
 
 // Update Timeline & Current Time

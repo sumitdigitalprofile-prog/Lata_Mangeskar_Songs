@@ -223,6 +223,27 @@ body {
   transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+.play-btn, .control-btn, .expand-btn{
+  -webkit-tap-highlight-color: transparent;
+}
+
+.play-btn:focus{
+  outline: none;
+}
+
+/* Play / Pause SVG Icon */
+.play-btn svg {
+  width: 26px;
+  height: 26px;
+  display: block;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.pause-icon {
+  transform: none;
+}
+
 /* Hover & Active Interactions */
 .control-btn:hover, 
 .expand-btn:hover {
