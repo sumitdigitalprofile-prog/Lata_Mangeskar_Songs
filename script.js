@@ -36,7 +36,29 @@ const playlist = [
     artist: "Lata Mangeshkar • Baharon Ke Sapne",
     src: "song/Aaja Piya Tohe Pyar Doon.mp3",
     cover: "https://t3.gstatic.com/images?q=tbn:ANd9GcSxVV-xlQxtAAj6EnBZuExhxjEDG9d8O53PvshjO92cZBXtpvRQtj9YyNH857RyMjNdCjH-Og094_pocLgPBMSwdq6iDb-lag"
+  },
+
+  {
+    title: "Bahon Mein Chale Aao",
+    artist: "Lata Mangeshkar • Anamika",
+    src: "song/Bahon Mein Chale Aao.mp3",
+    cover: "https://upload.wikimedia.org/wikipedia/en/f/ff/Anamika_%281973%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+  },
+
+  {
+    title: "Aaja Sanam Madhur Chandni Mein",
+    artist: "Lata Mangeshkar • Chori Chori",
+    src: "song/Aaja Sanam Madhur Chandni Mein Hum.mp3",
+    cover: "https://i.scdn.co/image/ab67616d0000b2731b0d2500a6eb6beddc94c59e"
+  },
+
+  {
+    title: "Ajib Dastan Hain Yeh",
+    artist: "Lata Mangeshkar • Dil Apna Aur Preet Parai",
+    src: "song/Ajib Dastan Hain Yeh.mp3",
+    cover: "https://m.media-amazon.com/images/M/MV5BNWU2Yjg4ZWUtZTQ4MS00MzM2LTk5MzctNjhiM2E5ZGJhOTk5XkEyXkFqcGc@._V1_.jpg"
   }
+
 ];
 
 let currentIndex = Math.floor(Math.random() * playlist.length);
