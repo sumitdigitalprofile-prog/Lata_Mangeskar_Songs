@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Lag Ja Gale Se Phir",
+    "artist": "Lata Mangeshkar • Woh Kaun Thi?",
+    "src": "song/Lag Ja Gale Se Phir - Lata Mangeshkar.mp3",
+    "cover": "img/Wo Kaun Thi.jpg"
+  },
+  {
+    "title": "Aap Ki Nazron Ne Samjha",
+    "artist": "Lata Mangeshkar • Anpadh",
+    "src": "song/Aapki Najron Ne Samja.mp3",
+    "cover": "img/Anpadh.jpg"
+  },
+  {
+    "title": "Zinda Rehti Hain Unki Mohabbatein",
+    "artist": "Lata Mangeshkar • Mohabbatein",
+    "src": "song/Zinda Rehti Hain Mohabbatein Lata Mangeshkar 320 Kbps.mp3",
+    "cover": "img/Mohabbatein.jpg"
+  },
+  {
+    "title": "Ho Gaya Hai Tujhko To Pyar Sajna",
+    "artist": "Lata Mangeshkar • Dilwale Dulhania Le Jayenge",
+    "src": "song/Ho Gaya Hai Tujhko To Pyar Sajna Dilwale Dulhania Le Jayenge 320 Kbps.mp3",
+    "cover": "img/Dilwale Dulhania Le Jayenge.jpg"
+  },
+
+  {
+    "title": "Yeh Kahaan Aa Gaye Hum",
+    "artist": "Lata Mangeshkar • Silsila",
+    "src": "song/Yeh Kahaan Aa Gaye Hum.mp3",
+    "cover": "img/Silsila.jpg"
+  },
+
+  {
+    "title": "Aaja Piya Tohe Pyar Doon",
+    "artist": "Lata Mangeshkar • Baharon Ke Sapne",
+    "src": "song/Aaja Piya Tohe Pyar Doon.mp3",
+    "cover": "img/Baharon Ke Sapne.jpg"
+  },
+
+  {
+    "title": "Bahon Mein Chale Aao",
+    "artist": "Lata Mangeshkar • Anamika",
+    "src": "song/Bahon Mein Chale Aao.mp3",
+    "cover": "img/Anamika.jpg"
+  },
+
+  {
+    "title": "Aaja Sanam Madhur Chandni Mein",
+    "artist": "Lata Mangeshkar • Chori Chori",
+    "src": "song/Aaja Sanam Madhur Chandni Mein Hum.mp3",
+    "cover": "img/Chori Chori.jpg"
+  },
+
+  {
+    "title": "Ajib Dastan Hain Yeh",
+    "artist": "Lata Mangeshkar • Dil Apna Aur Preet Parai",
+    "src": "song/Ajib Dastan Hain Yeh.mp3",
+    "cover": "img/Dil Apna Aur Preet Parai.jpg"
+  },
+
+  {
+    "title": "Bangle Ke Peechhe",
+    "artist": "Lata Mangeshkar • Samadhi",
+    "src": "song/Bangle Ke Peechhe Samadhi.mp3",
+    "cover": "img/Samadhi.jpg"
+  },
+
+  {
+    "title": "Do Pal",
+    "artist": "Lata Mangeshkar & Sonu Nigam • Veer-Zaara",
+    "src": "song/Do Pal.mp3",
+    "cover": "img/Veer-Zaara.jpg"
+  },
+
+  {
+    "title": "Gumnaam Hai Koi Badnaam Hai Koi",
+    "artist": "Lata Mangeshkar • Gumnaam",
+    "src": "song/Gumnaam Hai Koi Badnaam Hai Koi.mp3",
+    "cover": "img/Gumnaam.jpg"
+  },
+
+  {
+    "title": "Ham Tere Pyar Mein",
+    "artist": "Lata Mangeshkar • Dil Ek Mandir",
+    "src": "song/Ham Tere Pyar Mein.mp3",
+    "cover": "img/Dil Ek Mandir.jpg"
+  },
+
+  {
+    "title": "Yeh Samaa Samaa Hai Yeh Pyar Ka",
+    "artist": "Lata Mangeshkar • Jab Jab Phool Khile",
+    "src": "song/Yeh Samaa Samaa Hai.mp3",
+    "cover": "img/Jab Jab Phool Khile.jpg"
+  },
+
+  {
+    "title": "Tum Aa Gaye Ho Noor Aa Gaya",
+    "artist": "Lata Mangeshkar & Kishore Kumar • Aandhi",
+    "src": "song/Tum Aa Gaye Ho Noor Aa Gaya Hai.mp3",
+    "cover": "img/Aandhi.jpg"
+  },
+
+  {
+    "title": "Tu Mere Samne",
+    "artist": "Lata Mangeshkar & Udit Narayan • Darr",
+    "src": "song/Tu Mere Samne.mp3",
+    "cover": "img/Darr.jpg"
+  },
+
+  {
+    "title": "Tera Mera Pyar Amar",
+    "artist": "Lata Mangeshkar • Asli Naqli",
+    "src": "song/Tera Mera Pyar Amar.mp3",
+    "cover": "img/Asli Naqli.jpg"
+  },
+
+  {
+    "title": "Tadpaoge Tadpa Lo",
+    "artist": "Lata Mangeshkar • Bharkha",
+    "src": "song/Tadpaoge Tadpa Lo.mp3",
+    "cover": "img/Bharkha.jpg"
+  },
+
+  {
+    "title": "Phir Chiddi Raat",
+    "artist": "Lata Mangeshkar & Talat Aziz • Bazaar",
+    "src": "song/Phir Chiddi Raat.mp3",
+    "cover": "img/Bazaar.jpg"
+  },
+
+  {
+    "title": "Mera Dil Yeh Pukare Aaja",
+    "artist": "Lata Mangeshkar • Nagin",
+    "src": "song/Mera Dil Yeh Pukare Aaja.mp3",
+    "cover": "img/Nagin.jpg"
+  },
+
+  {
+    "title": "Kora Kagaz Tha Yeh Man Mera",
+    "artist": "Lata Mangeshkar & Kishore Kumar • Aradhana",
+    "src": "song/Kora Kagaz Tha Yeh Man Mera.mp3",
+    "cover": "img/Aradhana.jpg"
+  }
+]
