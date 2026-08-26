@@ -233,8 +233,8 @@ body {
 
 /* Play / Pause SVG Icon */
 .play-btn svg {
-  width: 32px;
-  height: 32px;
+  width: 26px;
+  height: 26px;
   display: block;
   fill: currentColor;
   flex-shrink: 0;
