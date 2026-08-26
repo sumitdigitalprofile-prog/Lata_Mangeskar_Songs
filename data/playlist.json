@@ -141,5 +141,12 @@
     "artist": "Lata Mangeshkar & Kishore Kumar • Aradhana",
     "src": "song/Kora Kagaz Tha Yeh Man Mera.mp3",
     "cover": "img/Aradhana.jpg"
+  },
+
+  {
+    "title": "Aap Ki Ankhon Mein Kuch",
+    "artist": "Lata Mangeshkar & Kishore Kumar • Ghar 1978",
+    "src": "song/Aap Ki Ankhon Mein Kuch.mp3",
+    "cover": "img/aap ki ankhon mein.jpg"
   }
 ]
