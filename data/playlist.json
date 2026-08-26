@@ -148,5 +148,26 @@
     "artist": "Lata Mangeshkar & Kishore Kumar • Ghar 1978",
     "src": "song/Aap Ki Ankhon Mein Kuch.mp3",
     "cover": "img/aap ki ankhon mein.jpg"
+  },
+
+  {
+    "title": "Piya Tose Naina Lage Re",
+    "artist": "Lata Mangeshkar & S.D. Burman • Guide",
+    "src": "song/Piya Tose Naina Lage Re Guide.mp3",
+    "cover": "img/Piya Tose Naina Lage Re.jpg"
+  },
+
+  {
+    "title": "Mohe Panghat Pe Nandlal",
+    "artist": "Lata Mangeshkar & Naushad • Mughal-E-Azam",
+    "src": "song/Mohe Panghat Pe Mughal E Azam.mp3",
+    "cover": "img/Mohe Panghat Pe Mughal E Azam.jpg"
+  },
+
+  {
+    "title": "Aap Yun Faaslon Se",
+    "artist": "Lata Mangeshkar • Shankar Husain",
+    "src": "song/Aap Yun Faaslon Se Shankar Husain.mp3",
+    "cover": "img/aap yun faaslon se shankar husain.jpg"
   }
 ]
