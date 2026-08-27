@@ -169,5 +169,12 @@
     "artist": "Lata Mangeshkar • Shankar Husain",
     "src": "song/Aap Yun Faaslon Se Shankar Husain.mp3",
     "cover": "img/aap yun faaslon se shankar husain.jpg"
+  },
+
+  {
+    "title": "Baghon Mein Bahar Hai",
+    "artist": "Lata Mangeshkar & Mohammed Rafi • Aradhana",
+    "src": "song/Baghon Mein Bahar Hai Aradhana.mp3",
+    "cover": "img/Baghon Mein Bahar Hai Aradhana.jpg"
   }
 ]
